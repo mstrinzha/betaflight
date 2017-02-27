@@ -92,13 +92,13 @@ void enableInverter(USART_TypeDef *USARTx, bool on)
 #endif
 
 #ifdef INVERTER_PIN_USART4
-    if (USARTx == USART4) {
+    if (USARTx == UART4) {
         pin = IOGetByTag(IO_TAG(INVERTER_PIN_USART4));
     }
 #endif
 
 #ifdef INVERTER_PIN_USART5
-    if (USARTx == USART5) {
+    if (USARTx == UART5) {
         pin = IOGetByTag(IO_TAG(INVERTER_PIN_USART5));
     }
 #endif
