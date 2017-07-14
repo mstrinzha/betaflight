@@ -1,7 +1,7 @@
 F405_TARGETS    += $(TARGET)
 FEATURES        += SDCARD VCP
 HSE_VALUE       = 16000000
-
+OPBL=yes
 TARGET_SRC = \
             drivers/accgyro/accgyro_spi_mpu9250.c \
             drivers/barometer/barometer_ms5611.c \
